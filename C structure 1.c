@@ -21,15 +21,14 @@ int main () {
   scanf("%s",&student1.email);
   printf("enter reg_no;");
   scanf("%s",&student1.reg_no);
-  printf("enter phone_no;");
-  scanf("%d",&student1.ID_no);
-  printf("enter marks;");
-  scanf("%d",&student1.marks);
-  printf("enter height;");
-  scanf("%f",&student1.height);
-  
-  printf("names%s\n",student1.name);
-  printf("email%s\n",student1.email);
-  printf("reg_no%s\n",student1.reg_no);
-  printf("phone_no%d\n",student1.phone_no);
-  prin
+  printf("enter phone_no,");
+  scanf("%d",& student1.phone_no);
+  printf("enter ID_no;");
+  scanf("%d", student1.ID_no);
+  printf("enter marks,");
+  scanf("%d", student1.marks);
+  printf("enter height,");
+  scanf("%s",& student1.height);
+return 0;
+}
+
